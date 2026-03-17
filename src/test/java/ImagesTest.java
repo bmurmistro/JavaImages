@@ -19,9 +19,9 @@ public class ImagesTest
     Eyes eyes;
     private static BatchInfo batch = new BatchInfo("Images Test");
     boolean establishBaseline = true;
-    String usaToday = establishBaseline ? "usatodayBefore" : "usatodayAfter";
-    String applitools = establishBaseline ? "applitoolsBefore" : "applitoolsAfter";
-    String fb = establishBaseline ? "fbBefore" : "fbAfter";
+    String usaToday = establishBaseline ? "usatodaybefore" : "usatodayafter";
+    String applitools = establishBaseline ? "applitoolsbefore" : "applitoolsafter";
+    String fb = establishBaseline ? "fbbefore" : "fbafter";
 
 
     @BeforeEach
